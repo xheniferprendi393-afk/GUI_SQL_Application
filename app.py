@@ -1,12 +1,21 @@
 import tkinter as tk
 
 
-window = tk.Tk()
-window.title("my foodpanda app...")
-window.geometry("400x500")
+class FoodApp:
+    def __init__(self):
+        self.window = tk.Tk()
+        self.window.title("my foodpanda app...")
+        self.window.geometry("400x500")
+
+        self.layout()
 
 
-# add title 
+        self.window.mainloop()
 
 
-window.mainloop()
+    def layout(self):
+        tk.Label(self.window,text="Fast Food App").pack()
+
+
+
+app = FoodApp()
