@@ -1,6 +1,6 @@
 # application
 
-
+## plan
 - make window 
 - add widgets like entry box buttons etc
 - sql code for making table
